@@ -227,6 +227,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .section_1 {
     position: relative;
     min-height: 100vh; 
+    margin-top: 100px;
 }
 
 .section_1__video {
@@ -287,15 +288,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding-bottom: 50px;
 }
 
-@media (max-height: 412px) {
-    .section_1__box {
-        height: 100%;
-        justify-content: center;
-    }
-    .section_1-subtitle {
-        padding-bottom: 15px
-    }
-}
+
 
 
 .section_1-button {
@@ -325,6 +318,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: block;
 } 
 
+@media (max-height: 412px) {
+    .section_1__box {
+        height: 100%;
+        justify-content: end;
+        padding-bottom: 10px;
+    }
+    .section_1-subtitle {
+        padding-bottom: 15px
+    }
+    .section_1-title {
+        
+        font-size: 30px;
+        
+    }
+
+
+}
 
 @media (max-width: 767px) {
     .section_1-title{
