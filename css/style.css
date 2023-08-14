@@ -122,8 +122,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         z-index: 5;
         display: block;
         position: relative;
-        width: 30px;
-        height: 18px;
+        width: 45px;
+        height: 27px;
     }
     .menu__icon span,
     .menu__icon::before,
@@ -268,6 +268,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     justify-content: space-evenly;
     height: 50%;
     z-index: 2;
+    padding-bottom: 110px;
 }
 
 .section_1-title {
@@ -322,7 +323,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .section_1__box {
         height: 100%;
         justify-content: end;
-        padding-bottom: 10px;
     }
     .section_1-subtitle {
         padding-bottom: 15px
