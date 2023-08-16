@@ -23,7 +23,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-    font-family: 'Montserrat',Arial,sans-serif;
+    font-family: 'Roboto',Arial,sans-serif;
 }
 body._lock {
     overflow: hidden;
@@ -518,6 +518,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .section_3__content_cards_txt {
     color: white;
     font-size: 16px;
+    padding-right: 10px;
 }
 
 .section_3__content_img {
@@ -559,6 +560,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .container {}
 
 .section_4__container_card {
+    position: relative;
     display: flex;
     align-items: center;
     width: 33.33%;
@@ -580,7 +582,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-weight: 700;
     font-size: 18px;
     padding-left: 10px;
+    
 }
+
+.cards_subtitle{
+    font-weight: 300;
+    font-size: 15px;
+    position: absolute;
+}
+
+
 
 @media (max-width: 960px) {
     .section_4__container {
@@ -593,9 +604,48 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
     .section_4__container_card {
         width: 100%;  
-        justify-content: center;    
+        
+        padding-bottom: 90px;    
     }
     
 
    
+}
+
+/* Section 5*/
+
+.section_5 {
+    background-color: rgba(26, 26, 26, 1);
+    height: auto;
+   
+}
+
+.section_5__container {
+    padding: 50px 30px 0 30px;
+    color: white;
+    height: auto;
+}
+.section_5__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: goldenrod;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.section_5__card {}
+
+.section_5__subtitle {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    height: auto;
+}
+
+.section_5__txt {
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5;
+    height: auto;
 }
