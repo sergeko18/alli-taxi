@@ -415,7 +415,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /* Section 2*/
 
 .section_2 {
-    background-color: rgb(255, 255, 255);
+    background-color: #e6e6e6;
 }
 
 .section_2__container {
@@ -471,7 +471,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding: 30px;
 }
 .section_3__title {
-    color: white;
+    color: #e6e6e6;
     font-size: 38px;
     font-weight: 700;
     text-align: start;
@@ -516,7 +516,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .section_3__content_cards_txt {
-    color: white;
+    color: #e6e6e6;
     font-size: 16px;
     padding-right: 10px;
 }
@@ -549,7 +549,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /* Section 4*/
 
-.section_4 {}
+.section_4 {
+    background-color: #e6e6e6;
+}
 
 .section_4__container {
     display: flex;
@@ -622,7 +624,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .section_5__container {
     padding: 50px 30px 0 30px;
-    color: white;
+    color: #e6e6e6;
     height: auto;
 }
 .section_5__title {
@@ -648,4 +650,128 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-weight: 100;
     line-height: 1.5;
     height: auto;
+}
+
+
+/* Section 6*/ 
+
+.section_6 {
+    background-color: #e6e6e6;
+}
+
+.section_6__container {
+    padding: 100px 0;
+    height: auto;
+}
+
+.section_6__title {
+    
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+
+.section_6__body {
+    margin-top: 120px;
+    display: flex;
+    padding: 0 30px;
+}
+
+.section_6__contacts {
+    margin-top: 50px;
+
+    width: 50%;
+    height: 100%;
+    font-size: 28px;
+    line-height: 1.35;
+    font-weight: 300;
+}
+.section_6__contacts_address {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.section_6__contacts_phone-link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 37px;
+    border-radius: 20px;
+    padding: 0 10px;
+    border: 1px solid #1e300e;
+    background-color: #79f009;
+}
+
+.section_6__contacts_phone-link:hover {
+    background-color: rgb(255, 230, 0);
+}
+
+.section_6__contacts_phone-link:active {
+    background-color: #afafaf;
+}
+
+
+.section_6__form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_6__form_body {
+    width: 80%;
+}
+
+.section_6__form__item {
+    padding: 20px 0;
+}  
+
+.form_label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form_input {
+    height: 50px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button:hover {
+    color: #294d0a;
+    
+}
+
+@media (max-width: 960px) {
+    .section_6__body {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .section_6__contacts {
+        width: 100%;
+    }
+
+    .section_6__form {
+        width: 100%;
+    }
+    .section_6__form_body {
+        width: 100%;
+    }
+    .section_6__body {
+        margin: 0;
+    }
+    
+
+   
 }
