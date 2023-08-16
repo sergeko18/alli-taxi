@@ -11,3 +11,28 @@ const onClickIconMenu = (e) => {
 if(iconMenu) {
     iconMenu.addEventListener('click', onClickIconMenu)
 }
+
+
+const meniLinks = document.querySelectorAll('.navigation[data-goto]');
+
+if (meniLinks.length > 0) {
+    const onMenuLinkClick = (e) => {
+        const menuLink = e.target;
+        if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+            const gotoBlock = document.querySelector(menuLink.dataset.goto);
+            const gotoSectionValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
+
+            window.scrollTo({
+                top: gotoSectionValue,
+                behavior: "smooth"
+            });
+            e.preventDefault();
+        }
+    }
+    meniLinks.forEach(menuLink => {
+        menuLink.addEventListener("click", onMenuLinkClick)
+    })
+
+    
+}
+

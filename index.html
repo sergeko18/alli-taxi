@@ -18,7 +18,7 @@
     <div class="wrapper">
       <header class="header">
         <div class="container header__container">
-          <a href="" class="header__logo logo">
+          <a data-goto="section_1" href="#" class="header__logo logo">
             <img class="logo__img" src="img/allianceLogo.png" alt="logo" />
           </a>
 
@@ -29,27 +29,42 @@
             <nav class="navbar__body">
               <ul class="navbar__ul">
                 <li>
-                  <a data-goto="section_1" href="" class="navbar__link"
+                  <a
+                    data-goto=".section_6"
+                    href="#"
+                    class="navbar__link navigation"
                     >Контакты</a
                   >
                 </li>
                 <li>
-                  <a data-goto="section_2" href="" class="navbar__link"
+                  <a
+                    data-goto=".section_2"
+                    href="#"
+                    class="navbar__link navigation"
                     >О нас</a
                   >
                 </li>
                 <li>
-                  <a data-goto="section_3" href="" class="navbar__link"
+                  <a
+                    data-goto=".section_6"
+                    href="#"
+                    class="navbar__link navigation"
                     >Водители</a
                   >
                 </li>
                 <li>
-                  <a data-goto="section_4" href="" class="navbar__link"
+                  <a
+                    data-goto=".section_5"
+                    href="#"
+                    class="navbar__link navigation"
                     >Вопрос/ответ</a
                   >
                 </li>
                 <li>
-                  <a data-goto="section_4" href="" class="navbar__link"
+                  <a
+                    data-goto=".section_6"
+                    href="#"
+                    class="navbar__link navigation"
                     >Аренда</a
                   >
                 </li>
@@ -78,10 +93,13 @@
                 Приглашаем к сотрудничеству водителей Uber, Bolt, Freenow в
                 Польше.
               </h2>
-              <button class="custom-btn btn-5" href="">
-                <span class="section_1-button__text"
-                  >Получить консультацию</span
+              <button class="custom-btn btn-5" href="#">
+                <div
+                  data-goto=".section_6"
+                  class="section_1-button__text navigation"
                 >
+                  Получить консультацию
+                </div>
               </button>
             </div>
           </div>
