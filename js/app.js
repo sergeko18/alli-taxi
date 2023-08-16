@@ -22,6 +22,12 @@ if (meniLinks.length > 0) {
             const gotoBlock = document.querySelector(menuLink.dataset.goto);
             const gotoSectionValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
 
+            if(iconMenu.classList.contains('_active')){
+                document.body.classList.remove('_lock');
+                iconMenu.classList.remove('_active');
+                menuBody.classList.remove('_active');
+            }    
+
             window.scrollTo({
                 top: gotoSectionValue,
                 behavior: "smooth"
