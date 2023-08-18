@@ -386,13 +386,18 @@
                 </div>
               </div>
               <div class="section_6__form">
-                <form action="#" class="section_6__form_body">
+                <form
+                  action="index.php"
+                  method="get"
+                  class="section_6__form_body"
+                  id="form"
+                >
                   <div class="section_6__form__item">
                     <input
                       name="name"
                       id="formName"
                       type="text"
-                      class="form_input"
+                      class="form_input _req"
                       placeholder="Ваше имя*"
                     />
                   </div>
@@ -401,7 +406,7 @@
                       name="email"
                       id="formEmail"
                       type="text"
-                      class="form_input"
+                      class="form_input _req _email"
                       placeholder="Ваш e-mail*"
                     />
                   </div>
@@ -414,11 +419,7 @@
                       placeholder="Ваш номер телефона*"
                     />
                   </div>
-                  <button
-                    type="submit"
-                    class="custom-btn btn-5 form__button"
-                    href="#"
-                  >
+                  <button type="submit" class="custom-btn btn-5 form__button">
                     <span class="section_1-button__text">Отпрвить</span>
                   </button>
                 </form>
@@ -443,5 +444,6 @@
       <footer></footer>
     </div>
     <script src="js/app.js"></script>
+    <script src="js/sandMessage.js"></script>
   </body>
 </html>
