@@ -22,14 +22,13 @@ document.addEventListener('DOMContentLoaded' , function () {
         
         if (error === 0) {
             form.classList.add('_sending');
-            let responce = await fetch('index.php', {
+            let responce = await fetch('send.php', {
                 method: 'POST',
                 body: formData
             });
+            console.log(responce.ok)
             if (responce.ok) {
-                let result = await responce.json();
-                alert(result.message);
-                formPreview.innerHTML = '';
+                alert("Ваша заявка отправленна. Мы свяжемся с вами в ближайшее время!");
                 form.reset();
                 form.classList.remove('_sending');
             } else {
