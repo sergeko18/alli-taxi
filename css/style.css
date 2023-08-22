@@ -701,7 +701,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     height: 40px;
     width: 320px;
     border-radius: 20px;
-    padding: 0 10px;
+    padding: 0 6px;
     
     background: linear-gradient(to top,  rgb(255, 230, 0) 0%, rgb(135, 251, 2));
     transition: all 0.3s ease;
@@ -717,7 +717,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 .section_6__contacts_phone-icon_img {
-    padding-top: 4px;
+    padding-top: 3px;
     width: 34px;
 }
 
