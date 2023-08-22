@@ -322,9 +322,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
 }
 
@@ -705,7 +705,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     
     background: linear-gradient(to top,  rgb(255, 230, 0) 0%, rgb(135, 251, 2));
     transition: all 0.3s ease;
-    box-shadow: 2px 4px rgb(135, 251, 2);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
 }
 
 .section_6__contacts_phone-link:hover {
@@ -720,7 +722,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .section_6__contacts_phone-link:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     
 }
 
