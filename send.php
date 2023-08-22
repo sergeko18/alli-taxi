@@ -3,10 +3,10 @@
 
 
 //В переменную $token нужно вставить токен, который нам прислал @botFather
-$token = "6182664535:AAFLr2J12G8oaJ82Lr0cp9_ovpEgNsd3Of4";
+$token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 //Сюда вставляем chat_id
-$chat_id = "478081787";
+$chat_id = "xxxxxxxxxx";
 
 //Определяем переменные для передачи данных из нашей формы
 

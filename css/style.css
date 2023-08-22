@@ -709,6 +709,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     background-color: rgb(255, 230, 0);
 }
 
+
+
+.section_6__contacts_phone-icon_img {
+    padding-top: 2px;
+    width: 34px;
+}
+
+.section_6__contacts_phone-link:hover {
+    transform: scale(1.2);
+    
+}
+
+
 .section_6__contacts_phone-link:active {
     background-color: #afafaf;
     transform: translate(3px, 3px);
@@ -718,6 +731,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .section_6__contacts_telegram-icon {
     width: 50px;
     transition: transform 0.3s ease;
+}
+
+.section_6__contacts_messengers-icons {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
 }
 
 .section_6__contacts_telegram-icon:hover {
