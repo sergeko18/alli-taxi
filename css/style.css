@@ -693,10 +693,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .section_6__contacts_phone-link {
+    font-size: 33px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
     display: inline-block;
-    height: 37px;
+    height: 40px;
+    width: 320px;
     border-radius: 20px;
     padding: 0 10px;
     
@@ -712,7 +715,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 .section_6__contacts_phone-icon_img {
-    padding-top: 2px;
+    padding-top: 4px;
     width: 34px;
 }
 
@@ -735,7 +738,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .section_6__contacts_messengers-icons {
     display: flex;
-    width: 280px;
+    width: 320px;
     justify-content: space-between;
 }
 
